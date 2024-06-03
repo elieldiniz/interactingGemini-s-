@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",                        /* Compilar para JavaScript ES2018 */
+    "module": "commonjs",                      /* Usar módulos CommonJS */
+    "strict": true,                            /* Habilitar modo estrito para checagem de tipos */
+    "esModuleInterop": true,                   /* Permitir interoperabilidade entre ES modules e CommonJS */
+    "skipLibCheck": true,                      /* Ignorar verificação de bibliotecas de definição */
+    "forceConsistentCasingInFileNames": true,  /* Garantir consistência de maiúsculas e minúsculas nos nomes de arquivos */
+    "outDir": "dist",                          /* Diretório de saída para os arquivos compilados */
+    "rootDir": "src",                          /* Diretório de entrada dos arquivos TypeScript */
+    "strictNullChecks": true                   /* Habilitar checagem estrita de nulos */
+  },
+  "include": ["src/**/*.ts"],                  /* Incluir todos os arquivos TypeScript dentro do diretório src */
+  "exclude": ["node_modules"]                  /* Excluir o diretório node_modules */
+}
